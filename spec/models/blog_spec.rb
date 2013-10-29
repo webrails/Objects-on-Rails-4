@@ -13,7 +13,7 @@ describe Blog do
 
   describe "#new_post" do
     before do
-      @new_post = OpenStruct.new
+      @new_post       = OpenStruct.new
       @it.post_source = -> { @new_post }
     end
 
